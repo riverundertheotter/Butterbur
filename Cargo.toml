@@ -1,0 +1,12 @@
+[package]
+name = "butterbur"
+version = "0.1.0"
+authors = ["rivercook2602@gmail.com"]
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.45"
+dotenvy = "0.15.7"
+rand = "0.10.4"
+serenity = "0.12"
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
